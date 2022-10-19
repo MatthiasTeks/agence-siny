@@ -1,9 +1,20 @@
-html,
-body {
-  padding: 0;
+:root {
+  --white: #FFFFFE;
+  --black: #1B1919;
+  --grey: #D9D9D9;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  background: var(--white);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -11,16 +22,147 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+/* BURGER DISPLAY */
+
+.siny-burger {
+  background: #094067;
+  height: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: height 1s ease-in-out;
+  width: 100%;
+  z-index: 10;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.burger-active {
+  height: 100vh;
+}
+
+.burger-siny-icon {
+  color: #5F6C7B;
+  transition: color 1s ease-in-out;
+  position: absolute;
+  top: 2em;
+  right: 1em;
+}
+
+.burger-icon-active {
+  color: var(--white) !important;
+  position: fixed;
+}
+
+.burger-box {
+  animation: 1s apparition 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+.burger-hr {
+  border-bottom: 1px solid #5F6C7B;
+  border-top-width: 0;
+  height: 0;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.burger-holder-social > div {
+  animation: 1s apparition 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@media screen and (max-width: 960px){
+  .siny-burger {
+    display: block;
   }
-  body {
-    color: white;
-    background: black;
+}
+
+/* SINY HOME */
+
+#siny-home > div:first-of-type {
+  animation: fadeInFromBottom 0.5s ease-in-out 0.5s forwards;
+  opacity: 0;
+}
+
+#siny-home > div:last-of-type {
+  animation: fadeInFromRight 0.5s ease-in-out 1s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* MARQUEE PARTNER */
+
+.marquee-container {
+  border: 1px solid rgb(201 201 201 / 50%);
+  border-radius: 22px;
+  overflow: hidden;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.marquee-container span {
+  margin: 0 2em !important;
+}
+
+#siny-concevoir-panel img {
+  border-top-right-radius: 23px;
+  border-top-left-radius: 23px;
+}
+
+#siny-developper img {
+  border-radius: 50%;
+}
+
+.siny-developper img {
+  padding-left: 3em;
+}
+
+#siny-icons > span:not(:first-of-type){
+  margin-left: 1em !important;
+}
+
+@media screen and (min-width: 1536px){
+  #siny-reseaux h2 {
+    text-align: left;
+  }
+}
+
+
+/* SINY TITLE */
+
+@media screen and (min-width: 960px){
+  .siny-title {
+    text-align: start !important;
+  }
+}
+
+/* KEYFRAMES */
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
