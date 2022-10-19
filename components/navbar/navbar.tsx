@@ -14,6 +14,9 @@ const Burger = ({burgerOpen, setBurgerOpen}: { burgerOpen: boolean, setBurgerOpe
                     layout="responsive"
                     height={56}
                     width={175}
+                    sizes=" (min-width: 60em) 24vw,
+                            (min-width: 28em) 45vw,
+                            100vw"
                     alt="Siny Agency Logo"
                 />
             </Box>

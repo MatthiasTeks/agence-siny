@@ -21,7 +21,7 @@ const IndexConcevoir = () => {
             <Box id="siny-concevoir-panel" display="flex" flexDirection="row" justifyContent="center" alignItems="end" width="100%" height="100%" pt="2em" px="2em">
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5}} viewport={{ once: true }}>
                     <Image
-                        src="/images/panel-admin.png"
+                        src="/images/panel-admin.webp"
                         layout="intrinsic"
                         height={410}
                         width={745}

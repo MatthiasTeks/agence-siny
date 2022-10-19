@@ -16,7 +16,7 @@ const IndexSiny = () => {
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5}} viewport={{ once: true }}>
                     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                     <Image
-                        src="/images/ordinateur.png"
+                        src="/images/flaticons/ordinateur.png"
                         height={80}
                         width={80}
                         alt="Man working on his computer"
@@ -32,7 +32,7 @@ const IndexSiny = () => {
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5, delay: 0.25}} viewport={{ once: true }}>
                     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" pt={{sm: "2em", lg: "0"}}>
                     <Image
-                        src="/images/art.png"
+                        src="/images/flaticons/art.png"
                         height={80}
                         width={80}
                         alt="Man working on his computer"
@@ -48,7 +48,7 @@ const IndexSiny = () => {
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5, delay: 0.5}} viewport={{ once: true }}>
                     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" pt={{sm: "2em", lg: "0"}}>
                     <Image
-                        src="/images/strategie.png"
+                        src="/images/flaticons/strategie.png"
                         height={80}
                         width={80}
                         alt="Man working on his computer"

@@ -124,10 +124,14 @@ a {
   margin: 0 2em !important;
 }
 
+/* SINY CONCEVOIR */
+
 #siny-concevoir-panel img {
   border-top-right-radius: 23px;
   border-top-left-radius: 23px;
 }
+
+/* SINY DEVELOPPER */
 
 #siny-developper img {
   border-radius: 50%;
@@ -137,16 +141,20 @@ a {
   padding-left: 3em;
 }
 
+/* SINY ICONS */
+
 #siny-icons > span:not(:first-of-type){
   margin-left: 1em !important;
 }
+
+
+/* SINY RESEAUX */
 
 @media screen and (min-width: 1536px){
   #siny-reseaux h2 {
     text-align: left;
   }
 }
-
 
 /* SINY TITLE */
 

@@ -72,14 +72,14 @@ const Footer = () => {
             </Box>
             <Box id="siny-icons" display={{sm: "flex", xl: "none"}} flexDirection={{ sm: "row" }} justifyContent={{sm: "center", xl: "start"}}  alignItems={{sm: "center", xl: "start"}}  pt="2em" width="100%">
                 <Image
-                    src="/images/linkedin.png"
+                    src="/images/flaticons/linkedin.png"
                     layout="fixed"
                     height={35}
                     width={35}
                     alt={`image representing logo of Linkedin`}
                 />
                 <Image
-                    src="/images/google.png"
+                    src="/images/flaticons/google.png"
                     layout="fixed"
                     height={35}
                     width={35}
