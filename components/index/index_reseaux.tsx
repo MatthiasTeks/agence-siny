@@ -13,11 +13,11 @@ const IndexReseaux = () => {
                 </Text>
             </Box>
             <Box display="flex" flexDirection="column" justifyContent="end" alignItems="center">
-                <Reseaux image="/images/flaticons/instagram.png" title="Instagram" delay={0.25} />
-                <Reseaux image="/images/flaticons/facebook.png" title="Facebook" delay={0.50} />
-                <Reseaux image="/images/flaticons/linkedin.png" title="Linkedin" delay={0.75} />
-                <Reseaux image="/images/flaticons/twitter.png" title="Twitter" delay={1} />
-                <Reseaux image="/images/flaticons/discord.png" title="Discord" delay={1.25} />
+                <Reseaux image="/images/instagram.png" title="Instagram" delay={0.25} />
+                <Reseaux image="/images/facebook.png" title="Facebook" delay={0.50} />
+                <Reseaux image="/images/linkedin.png" title="Linkedin" delay={0.75} />
+                <Reseaux image="/images/twitter.png" title="Twitter" delay={1} />
+                <Reseaux image="/images/discord.png" title="Discord" delay={1.25} />
             </Box>
         </Box>
     )

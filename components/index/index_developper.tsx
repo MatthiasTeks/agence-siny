@@ -18,9 +18,9 @@ const IndexDevelopper = () => {
                 <Icon id="siny-developper-icon" as={BsFillArrowRightCircleFill} w={5} h={5} mx="0.5em" color="red.500"/>
             </Box>
             <Box display="flex" flexDirection={{sm: "column", xl: "row"}} justifyContent="center" alignItems={{sm: "center", xl: "end"}} width="100%" height="100%" pt="2em">
-                <Developper image="/images/index_users/orane.jpg" name="Orane Guichard" title="Conception site web" resume="“ Rapide, efficace, arrangeant ”" delay={0.25} />
-                <Developper image="/images/index_users/tom.png" name="Tom Harris" title="Conception site web" resume="“ Rapide, efficace, arrangeant ”" delay={0.5}/>
-                <Developper image="/images/index_users/sunly.png" name="Sunly Hor" title="Conception site web" resume="“ Rapide, efficace, arrangeant ”" delay={0.75} />
+                <Developper image="/images/orane.jpg" name="Orane Guichard" title="Conception site web" resume="“ Rapide, efficace, arrangeant ”" delay={0.25} />
+                <Developper image="/images/tom.png" name="Tom Harris" title="Conception site web" resume="“ Rapide, efficace, arrangeant ”" delay={0.5}/>
+                <Developper image="/images/sunly.png" name="Sunly Hor" title="Conception site web" resume="“ Rapide, efficace, arrangeant ”" delay={0.75} />
             </Box>
         </Box>
     )
