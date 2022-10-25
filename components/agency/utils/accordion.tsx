@@ -1,6 +1,4 @@
-import { motion } from "framer-motion";
-import { Box, Heading, Text, Icon } from "@chakra-ui/react";
-import Image from "next/image";
+import { Box, Text, Icon } from "@chakra-ui/react";
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 import { AccordionType } from "../../../global/types";
 

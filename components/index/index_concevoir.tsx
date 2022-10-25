@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import {Box, Heading, Icon, Text} from "@chakra-ui/react";
 import Image from "next/image";
-import {BsFillArrowRightCircleFill} from "react-icons/bs";
+import { motion } from "framer-motion";
+import { Box, Heading, Icon, Text } from "@chakra-ui/react";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const IndexConcevoir = () => {
     return (

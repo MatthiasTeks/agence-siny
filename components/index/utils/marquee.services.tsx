@@ -1,5 +1,5 @@
-import { Box, Heading, Text, Icon } from "@chakra-ui/react";
 import Image from "next/image";
+import { Box, Heading, Text, Icon } from "@chakra-ui/react";
 import { AiFillCheckCircle } from 'react-icons/ai';
 import { MarqueeServicesTypes } from "../../../global/types";
 
@@ -22,7 +22,6 @@ const MarqueeService = (props: MarqueeServicesTypes) => {
                     <Icon color="green.300" as={AiFillCheckCircle} ml="0.25em"/>
                 </Box>
             </Box>
-
         </Box>
     )
 }

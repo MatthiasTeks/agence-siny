@@ -10,7 +10,6 @@ import AgencyStrength from "../components/agency/agency_strength";
 import AgencyHome from "../components/agency/agency_home";
 import AgencyProcess from "../components/agency/agence_process";
 
-
 const Agency: NextPage = () => {
 
     const [burgerOpen, setBurgerOpen] = useState(false);

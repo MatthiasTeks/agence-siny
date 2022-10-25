@@ -1,5 +1,5 @@
-import { Box, Icon, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import { Box, Icon, Text } from "@chakra-ui/react";
 import { SiTwitter } from "react-icons/si";
 import { GrLinkedinOption } from 'react-icons/gr';
 import { AiOutlineGoogle } from 'react-icons/ai';

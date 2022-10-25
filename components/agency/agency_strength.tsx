@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { Box, Heading, Text } from "@chakra-ui/react";
 
 const AgencyStrength = () => {
     return (

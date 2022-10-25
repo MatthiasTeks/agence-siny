@@ -1,10 +1,7 @@
-import { motion } from "framer-motion";
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
-import Image from "next/image";
+import { useState } from "react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 import { Icon } from '@chakra-ui/react'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
-import { AiOutlinePlus } from 'react-icons/ai';
-import {useState} from "react";
 import Accordion from "./utils/accordion";
 
 const AgencyProcess = () => {

@@ -1,9 +1,6 @@
-import { PopupWidget } from "react-calendly";
-import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
-import { Icon } from '@chakra-ui/react'
-import { BsFillArrowRightCircleFill } from 'react-icons/bs';
-import { BsArrowRightCircle } from 'react-icons/bs';
+import { Box, Button, Heading, Text, Icon } from "@chakra-ui/react";
+import { BsFillArrowRightCircleFill, BsArrowRightCircle } from 'react-icons/bs';
 
 const IndexHome = () => {
     return (

@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Box, Heading } from "@chakra-ui/react";
-import Image from "next/image";
 import { ReseauxType } from "../../../global/types";
 
 const Reseaux = (props: ReseauxType) => {

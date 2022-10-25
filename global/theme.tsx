@@ -2,7 +2,6 @@ import { extendTheme } from "@chakra-ui/react"
 import "@fontsource/open-sans";
 import "@fontsource/lato";
 
-
 const theme = extendTheme({
     fonts: {
         heading: `'Lato', sans-serif`,

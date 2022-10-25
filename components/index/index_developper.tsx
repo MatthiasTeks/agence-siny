@@ -1,5 +1,5 @@
-import {Box, Heading, Icon, Text} from "@chakra-ui/react";
-import {BsFillArrowRightCircleFill} from "react-icons/bs";
+import { Box, Heading, Icon, Text } from "@chakra-ui/react";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Developper from "./utils/developper";
 
 const IndexDevelopper = () => {

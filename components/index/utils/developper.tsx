@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Box, Heading, Text, Icon } from "@chakra-ui/react";
-import Image from "next/image";
 import { AiFillCheckCircle } from 'react-icons/ai';
 import { DevelopperType } from "../../../global/types";
 

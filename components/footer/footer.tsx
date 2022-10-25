@@ -1,5 +1,5 @@
-import {Box, Heading, Text} from "@chakra-ui/react";
 import Image from "next/image";
+import { Box, Heading, Text } from "@chakra-ui/react";
 
 const Footer = () => {
     return (
