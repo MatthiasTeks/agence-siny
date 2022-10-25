@@ -1,3 +1,5 @@
+import {Dispatch, SetStateAction} from "react";
+
 export interface MarqueeServicesTypes {
     image: string;
     title: string;
@@ -23,4 +25,18 @@ export interface ReseauxType {
     image: string;
     title: string;
     delay: number;
+}
+
+export interface AccordionType {
+    title: string;
+    accordion: number;
+    setAccordion: Dispatch<SetStateAction<number>>;
+    resume: string;
+    index: number;
+}
+
+export interface ValuesFormik {
+    firstName: string;
+    lastName: string;
+    email: string;
 }

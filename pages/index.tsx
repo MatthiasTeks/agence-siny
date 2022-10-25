@@ -11,7 +11,7 @@ import IndexConcevoir from "../components/index/index_concevoir";
 import IndexDevelopper from "../components/index/index_developper";
 import IndexPilotage from "../components/index/index_pilotage";
 import IndexReseaux from "../components/index/index_reseaux";
-import IndexMerch from "../components/index/index.merch";
+import IndexMerch from "../components/index/index_merch";
 import Footer from "../components/footer/footer";
 
 const Index: NextPage = () => {
