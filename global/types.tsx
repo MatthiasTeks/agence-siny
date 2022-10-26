@@ -34,9 +34,3 @@ export interface AccordionType {
     resume: string;
     index: number;
 }
-
-export interface ValuesFormik {
-    firstName: string;
-    lastName: string;
-    email: string;
-}

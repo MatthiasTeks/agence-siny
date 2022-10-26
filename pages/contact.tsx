@@ -12,9 +12,9 @@ const Agency: NextPage = () => {
                 <title>Siny Agency - Agency</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Box position="fixed" w="100vw" h="100vh" display="flex" flexDirection={{ sm: "column", lg: "row"}} justifyContent="center" alignItems="center" mx="10vw" my="5vh">
+            <Box position="fixed" h="100vh" display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" mx="5em" my="2em">
                 <ContactSiny />
-                <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+                <Box h="75%" display="flex" flexDirection="column" justifyContent="center" alignItems="start" bg="#D8EEFE" borderRadius="22px" p="2em">
                     <ContactDiscuss />
                     <ContactForm />
                 </Box>
