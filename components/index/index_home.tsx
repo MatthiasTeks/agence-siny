@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Box, Button, Heading, Text, Icon } from "@chakra-ui/react";
 import { BsFillArrowRightCircleFill, BsArrowRightCircle } from 'react-icons/bs';
+
 
 const IndexHome = () => {
     return (
@@ -14,10 +16,12 @@ const IndexHome = () => {
                     De votre stratégie digital à la conception de votre site internet, une personnalisation de notre service en fonction de votre projet.
                 </Text>
                 <Box display="flex" flexDirection={{sm: "column", lg: "row"}} alignItems={{sm: "center", lg: "start"}} pt="1em">
-                    <Button display="flex" justifyContent="space-between" alignItems="center"  colorScheme='blue' p={{sm: "0.5em", lg: "1.5em"}}>
-                        <Text fontSize={{sm: "sm", xl: "lg"}} fontWeight="lighter">Prendre contact</Text>
-                        <Icon as={BsFillArrowRightCircleFill} w={5} h={5} mx="0.5em" color="white.500"/>
-                    </Button>
+                    <Link href="/contact">
+                        <Button display="flex" justifyContent="space-between" alignItems="center"  colorScheme='blue' p={{sm: "0.5em", lg: "1.5em"}}>
+                            <Text fontSize={{sm: "sm", xl: "lg"}} fontWeight="lighter">Prendre contact</Text>
+                            <Icon as={BsFillArrowRightCircleFill} w={5} h={5} mx="0.5em" color="white.500"/>
+                        </Button>
+                    </Link>
                     <Button display="flex" justifyContent="space-between" alignItems="center" colorScheme='gray' ml={{lg: "1em"}} mt={{sm: "0.5em" , lg: "inherit"}} p={{sm: "0.5em", lg: "1.5em"}} visibility="hidden">
                         <Text fontSize={{sm: "sm", xl: "lg"}} color="white.500" fontWeight="lighter">Nos réalisations</Text>
                         <Icon as={BsArrowRightCircle} w={5} h={5} mx="0.5em" color="white.500"/>

@@ -179,6 +179,22 @@ a {
   max-height: inherit;
 }
 
+/* DEVICE CONTACT PAGE */
+
+@media screen and (max-width: 959px){
+  #desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px){
+  #mobile {
+    display: none;
+  }
+}
+
+
+
 /* KEYFRAMES */
 
 @keyframes apparition {

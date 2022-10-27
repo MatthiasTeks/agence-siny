@@ -5,10 +5,10 @@ const IndexReseaux = () => {
     return (
         <Box id="siny-reseaux" display="flex" flexDirection={{ sm: "column", xl: "row" }} justifyContent="center" alignItems="center" mx="10vw" px="10vw" bg="#90b4ce25" borderRadius="32px" mt="1em" py="5em">
             <Box display="flex" flexDirection="column" justifyContent={{sm: "center", xl: "start"}} alignItems={{sm: "center", xl: "start"}}>
-                <Heading color="blue.700" textAlign={{sm: "center", xl: "left"}} as="h2" size={{sm: "xl", xl: "2xl"}}  letterSpacing="-1px" width={{sm: "100%", xl: "90%", '2xl': "60%"}}>
+                <Heading color="blue.700" textAlign={{sm: "center", lg: "left"}} as="h2" size={{sm: "xl", xl: "xl", '2xl': "2xl"}}  letterSpacing="-1px" width={{sm: "100%", xl: "90%", '2xl': "60%"}}>
                     Nous vous accompagnons sur les réseaux sociaux.
                 </Heading>
-                <Text color="blue.700" fontSize={{sm: "lg", xl: "2xl"}} textAlign={{sm: "center", xl: "left"}} letterSpacing="-1px" pt="1em" width={{xl: "90%", '2xl': "60%"}}>
+                <Text color="blue.700" fontSize={{sm: "lg", xl: "xl", '2xl': "2xl"}} textAlign={{sm: "center", xl: "left"}} letterSpacing="-1px" pt="1em" width={{xl: "90%", '2xl': "60%"}}>
                     De puissants outils pour développer et fidéliser votre clientèle.
                 </Text>
             </Box>

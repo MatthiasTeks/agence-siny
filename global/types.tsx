@@ -34,3 +34,7 @@ export interface AccordionType {
     resume: string;
     index: number;
 }
+
+export interface DeviceContact {
+    idDevice: string;
+}

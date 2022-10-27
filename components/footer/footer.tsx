@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <Box id="siny-pilotage" display="flex" flexDirection={{ sm: "column", xl: "row" }} justifyContent={{sm: "center", xl: "start"}}  alignItems={{sm: "center", xl: "start"}} mx="10vw" mt="1em" py="2em">
             <Box display="flex" flexDirection={{ sm: "column" }} justifyContent="start" alignItems="start" flexGrow={1}>
-                <Heading color="blue.700" textAlign={{sm: "center", xl: "start" }} as="h4" size={{sm: "xl", lg: "lg"}} letterSpacing="-1px" width={{sm: "100%", xl: "30%"}}>
+                <Heading color="blue.700" textAlign={{sm: "center", xl: "start" }} as="h4" size={{sm: "xl", lg: "lg"}} letterSpacing="-1px" width={{sm: "100%", xl: "60%", '2xl': "30%"}}>
                     Votre agence pour une digitalisation réussie.
                 </Heading>
                 <Box id="siny-icons" display={{sm: "none", xl: "flex"}} flexDirection={{ sm: "row" }} justifyContent={{sm: "center", xl: "start"}}  alignItems={{sm: "center", xl: "start"}}  pt="2em" width="100%">

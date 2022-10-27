@@ -31,7 +31,9 @@ const Burger = ({burgerOpen, setBurgerOpen}: { burgerOpen: boolean, setBurgerOpe
                 </Link>
             </Box>
             <Button display={{sm: "none", lg: "flex"}} colorScheme='blue' p="1.5em">
-                <Text fontSize='lg' fontWeight="lighter">Prendre contact</Text>
+                <Link href="/contact">
+                    <Text fontSize='lg' fontWeight="lighter">Prendre contact</Text>
+                </Link>
             </Button>
             <Icon className={`burger-siny-icon ${burgerOpen ? 'burger-icon-active' : ''}`} as={BiMenuAltRight} display={{sm: "block", lg: "none" }} w={8} h={8} mx="0.5em" zIndex="11" onClick={() => setBurgerOpen(!burgerOpen)}/>
         </Box>
