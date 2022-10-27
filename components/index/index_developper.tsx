@@ -14,7 +14,7 @@ const IndexDevelopper = () => {
             </Text>
             <Link href="/contact">
                 <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" width="100%" pt="1em">
-                    <Text color="white.500" fontSize={{sm: "lg", xl: "2xl"}} textAlign={{ sm: "center", lg: "center" }} letterSpacing="-1px" >
+                    <Text color="white.500" fontSize={{sm: "lg", xl: "2xl"}} textAlign={{ sm: "center", lg: "center" }} letterSpacing="-1px" cursor="pointer">
                         Nous contacter
                     </Text>
                     <Icon id="siny-developper-icon" as={BsFillArrowRightCircleFill} w={5} h={5} mx="0.5em" color="red.500"/>

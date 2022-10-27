@@ -21,7 +21,7 @@ const ContactDiscuss = () => {
                     Posez des questions, apprenez-en davantage sur notre solution et lancez votre projet digital.
                 </Text>
             </Box>
-            <Box id="siny-developper" display={{sm: "none", lg: "display"}} flexDirection="row" justifyContent="center" alignItems="center" alignSelf="start">
+            <Box id="siny-developper" display={{sm: "none", lg: "block"}} flexDirection="row" justifyContent="center" alignItems="center" alignSelf="start">
                 <Image
                     src={"/images/matthias.png"}
                     layout="fixed"

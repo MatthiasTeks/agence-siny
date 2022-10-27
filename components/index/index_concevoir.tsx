@@ -14,7 +14,7 @@ const IndexConcevoir = () => {
                 Siny met un point d’honneur à faire preuve de transparence et à travailler de pair avec vous pour vous guider au mieux vers la réalisation d’un site internet moderne répondant à vos demandes.
             </Text>
             <Link href="/contact">
-                <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" width="100%" pt="1em">
+                <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" width="100%" pt="1em" cursor="pointer">
                     <Text color="gray.500" fontSize={{sm: "lg", xl: "2xl"}} textAlign="center" letterSpacing="-1px" >
                         Nous contacter
                     </Text>
