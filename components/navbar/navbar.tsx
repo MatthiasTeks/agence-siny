@@ -23,11 +23,11 @@ const Burger = ({burgerOpen, setBurgerOpen}: { burgerOpen: boolean, setBurgerOpe
                 </Box>
             </Link>
             <Box display={{sm: "none", lg: "flex"}} alignItems="center" flexGrow="1" ml={6} visibility="hidden">
-                <Link href="/agency">
-                    <Heading fontSize='xl' color="blue.700" as="b" cursor="pointer">l&apos;agence</Heading>
+                <Link href="/">
+                    <Heading fontSize='xl' color="blue.700" as="b" cursor="pointer">l&apos;agence // not build</Heading>
                 </Link>
-                <Link href="/projects">
-                    <Heading fontSize='xl' ml={4} color="blue.700" as="b" cursor="pointer">nos réalisations</Heading>
+                <Link href="/p">
+                    <Heading fontSize='xl' ml={4} color="blue.700" as="b" cursor="pointer">nos réalisations // not build</Heading>
                 </Link>
             </Box>
             <Button display={{sm: "none", lg: "flex"}} colorScheme='blue' p="1.5em">
