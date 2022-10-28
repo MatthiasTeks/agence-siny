@@ -9,7 +9,7 @@ const IndexSiny = () => {
                 Siny au coeur de votre projet
             </Heading>
             <Text color="gray.500" fontSize={{sm: "lg", xl: "2xl"}} textAlign="center" letterSpacing="-1px" pt="0.5em" px={{sm: "1em", xl: "0"}}>
-                De la conception web jusqu’à la reflexion de votre stratégie digitale, l’équipe Siny est à vos côtés.
+                De la conception web jusqu’à la réflexion de votre stratégie digitale, l’équipe Siny est à vos côtés.
             </Text>
             <Box display="flex" flexDirection={{sm: "column", lg: "row"}} justifyContent="center" alignItems="center" bg="white.500" mx={{sm: "2em", md: "5em"}} my="3em" py="3em" px="1em" borderRadius="24px">
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5}} viewport={{ once: true }}>
@@ -24,7 +24,7 @@ const IndexSiny = () => {
                         Conception Web
                     </Heading>
                     <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="70%">
-                        Un site web performant et intuitif répondant a vos demandes et à ceux de vos clients
+                        Un site web performant, intuitif et moderne répondant a vos demandes.
                     </Text>
                 </Box>
                 </motion.div>
@@ -40,7 +40,7 @@ const IndexSiny = () => {
                         Image de Marque
                     </Heading>
                     <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="70%">
-                        Un site web performant et intuitif repondant a vos demandes et à ceux de vos clients
+                        Une image de marque moderne et cohérente pour dynamiser votre force marketing.
                     </Text>
                 </Box>
                 </motion.div>
@@ -56,7 +56,7 @@ const IndexSiny = () => {
                         Stratégie Digital
                     </Heading>
                     <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="70%">
-                        Un site web performant et intuitif repondant a vos demandes et à ceux de vos clients
+                        Un audit complet de l&apos;implantation digitale de votre entreprise.
                     </Text>
                 </Box>
                 </motion.div>

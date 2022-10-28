@@ -13,7 +13,7 @@ const IndexHome = () => {
                 </Heading>
                 <Text color="gray.500" fontSize={{sm: "lg", xl: "lg", '2xl': "xl"}} textAlign={{ sm: "center", lg: "start" }} letterSpacing="-1px" pt="0.5em">
                     L&apos;équipe Siny vous accompagne dans votre projet web et dans sa réussite.
-                    De votre stratégie digital à la conception de votre site internet, une personnalisation de notre service en fonction de votre projet.
+                    De votre stratégie digitale à la conception de votre site internet, une personnalisation de notre service en fonction de votre projet.
                 </Text>
                 <Box display="flex" flexDirection={{sm: "column", lg: "row"}} alignItems={{sm: "center", lg: "start"}} pt="1em">
                     <Link href="/contact">

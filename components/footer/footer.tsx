@@ -71,20 +71,24 @@ const Footer = () => {
                 </Text>
             </Box>
             <Box id="siny-icons" display={{sm: "flex", xl: "none"}} flexDirection={{ sm: "row" }} justifyContent={{sm: "center", xl: "start"}}  alignItems={{sm: "center", xl: "start"}}  pt="2em" width="100%">
-                <Image
-                    src="/images/linkedin.png"
-                    layout="fixed"
-                    height={35}
-                    width={35}
-                    alt={`image representing logo of Linkedin`}
-                />
-                <Image
-                    src="/images/google.png"
-                    layout="fixed"
-                    height={35}
-                    width={35}
-                    alt={`image representing logo of Google`}
-                />
+                <a href="https://www.linkedin.com/in/matthias-vimbert/" target="_blank" rel="noreferrer">
+                    <Image
+                        src="/images/linkedin.png"
+                        layout="fixed"
+                        height={35}
+                        width={35}
+                        alt={`image representing logo of Linkedin`}
+                    />
+                </a>
+                <a href="https://goo.gl/maps/ynFVhNmEWgvidRZc8" target="_blank" rel="noreferrer">
+                    <Image
+                        src="/images/google.png"
+                        layout="fixed"
+                        height={35}
+                        width={35}
+                        alt={`image representing logo of Google`}
+                    />
+                </a>
             </Box>
             <Text color="blue.700" display={{sm: "block", xl: "none"}} fontSize="sm" textAlign="center" letterSpacing="-1px" pt="2em" width="100%">
                 @ 2022 Siny. Tout droit reservé.

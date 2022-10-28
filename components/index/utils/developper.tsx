@@ -19,7 +19,7 @@ const Developper = (props: DevelopperType) => {
                 <Text color="red.500" fontSize={{sm: "sm", lg: "lm"}} textAlign={{ sm: "center" }} letterSpacing="-1px">
                     {props.title}
                 </Text>
-                <Text color="gray.500" fontSize={{sm: "sm", lg: "lm"}} textAlign={{ sm: "center" }} letterSpacing="-1px">
+                <Text color="gray.500" fontSize={{sm: "sm", lg: "lm"}} textAlign={{ sm: "left" }} letterSpacing="-1px">
                     {props.resume}
                 </Text>
             </Box>
