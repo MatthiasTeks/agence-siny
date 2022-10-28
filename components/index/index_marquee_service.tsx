@@ -8,7 +8,7 @@ const IndexMarqueeService = () => {
             <Marquee>
                 <MarqueeServices image="/images/prototype.png" title="UI/UX Design" resume="Parcours utilisateur" />
                 <MarqueeServices image="/images/seo.png" title="Referencement" resume="Optimisation naturel" />
-                <MarqueeServices image="/images/concept.png" title="Maquettage" resume="Prototypage web" />
+                <MarqueeServices image="/images/concept.webp" title="Maquettage" resume="Prototypage web" />
                 <MarqueeServices image="/images/mis-a-jour.png" title="Mise à jour" resume="Application pérenne" />
             </Marquee>
         </Box>

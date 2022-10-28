@@ -15,7 +15,7 @@ const AgencyStrength = () => {
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5}} viewport={{ once: true }}>
                     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
                         <Image
-                            src="/images/customer-client.png"
+                            src="/images/customer-client.webp"
                             height={80}
                             width={80}
                             alt="Man working on his computer"

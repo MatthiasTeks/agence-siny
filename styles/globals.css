@@ -143,7 +143,7 @@ a {
 
 /* SINY ICONS */
 
-#siny-icons > span:not(:first-of-type){
+#siny-icons > a:not(:first-of-type){
   margin-left: 1em !important;
 }
 

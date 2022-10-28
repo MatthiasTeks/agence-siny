@@ -1,27 +1,29 @@
 import { Dispatch, SetStateAction } from 'react';
 import Image from 'next/image';
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { Box, Text, Button, Heading, Icon } from '@chakra-ui/react';
 import { BiMenuAltRight } from 'react-icons/bi';
-
 
 const Burger = ({burgerOpen, setBurgerOpen}: { burgerOpen: boolean, setBurgerOpen: Dispatch<SetStateAction<boolean>>}) => {
     return (
         <Box id="navbar" display="flex" justifyContent={{sm: "space-between", lg: "inherit"}} alignItems="center" py="1rem" px="3rem" h="15vh" w="100vw">
-            <Link href="/">
-                <Box display="block" w={{sm: "30vw", lg: "10vw"}} cursor="pointer">
-                    <Image
-                        src="/images/logo.webp"
-                        layout="responsive"
-                        height={56}
-                        width={175}
-                        sizes=" (min-width: 60em) 24vw,
-                                (min-width: 28em) 45vw,
-                                100vw"
-                        alt="Siny Agency Logo"
-                    />
-                </Box>
-            </Link>
+            <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5, delay: 0}} viewport={{ once: true }}>
+                <Link href="/">
+                    <Box display="block" w={{sm: "30vw", lg: "10vw"}} cursor="pointer">
+                        <Image
+                            src="/images/logo.webp"
+                            layout="responsive"
+                            height={56}
+                            width={175}
+                            sizes=" (min-width: 60em) 24vw,
+                                    (min-width: 28em) 45vw,
+                                    100vw"
+                            alt="Siny Agency Logo"
+                        />
+                    </Box>
+                </Link>
+            </motion.div>
             <Box display={{sm: "none", lg: "flex"}} alignItems="center" flexGrow="1" ml={6} visibility="hidden">
                 <Link href="/">
                     <Heading fontSize='xl' color="blue.700" as="b" cursor="pointer">l&apos;agence // not build</Heading>

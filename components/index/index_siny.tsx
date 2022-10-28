@@ -23,7 +23,7 @@ const IndexSiny = () => {
                     <Heading color="blue.700" textAlign="center" as="h3" size={{sm: "md", xl: "lg"}}  letterSpacing="-1px" pt="1em">
                         Conception Web
                     </Heading>
-                    <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="70%">
+                    <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="80%">
                         Un site web performant, intuitif et moderne répondant a vos demandes.
                     </Text>
                 </Box>
@@ -31,7 +31,7 @@ const IndexSiny = () => {
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5, delay: 0.25}} viewport={{ once: true }}>
                     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" pt={{sm: "2em", lg: "0"}}>
                     <Image
-                        src="/images/art.png"
+                        src="/images/art.webp"
                         height={80}
                         width={80}
                         alt="Man working on his computer"
@@ -39,7 +39,7 @@ const IndexSiny = () => {
                     <Heading color="blue.700" textAlign={{sm: "center", lg: "start" }} as="h3" size={{sm: "md", xl: "lg"}}  letterSpacing="-1px"  pt="1em">
                         Image de Marque
                     </Heading>
-                    <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="70%">
+                    <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="80%">
                         Une image de marque moderne et cohérente pour dynamiser votre force marketing.
                     </Text>
                 </Box>
@@ -55,8 +55,8 @@ const IndexSiny = () => {
                     <Heading color="blue.700" textAlign={{sm: "center", lg: "start" }} as="h3" size={{sm: "md", xl: "lg"}}  letterSpacing="-1px"  pt="1em">
                         Stratégie Digital
                     </Heading>
-                    <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="70%">
-                        Un audit complet de l&apos;implantation digitale de votre entreprise.
+                    <Text color="gray.500" fontSize={{sm: "sm", xl: "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" pt="0.5em" w="80%">
+                        Un audit complet de l&apos;implantation digitale de votre entreprise sur internet.
                     </Text>
                 </Box>
                 </motion.div>

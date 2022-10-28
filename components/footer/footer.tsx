@@ -9,20 +9,24 @@ const Footer = () => {
                     Votre agence pour une digitalisation réussie.
                 </Heading>
                 <Box id="siny-icons" display={{sm: "none", xl: "flex"}} flexDirection={{ sm: "row" }} justifyContent={{sm: "center", xl: "start"}}  alignItems={{sm: "center", xl: "start"}}  pt="2em" width="100%">
-                    <Image
-                        src="/images/linkedin.png"
-                        layout="fixed"
-                        height={35}
-                        width={35}
-                        alt={`image representing logo of Linkedin`}
-                    />
-                    <Image
-                        src="/images/google.png"
-                        layout="fixed"
-                        height={35}
-                        width={35}
-                        alt={`image representing logo of Google`}
-                    />
+                    <a href="https://www.linkedin.com/in/matthias-vimbert/" target="_blank" rel="noreferrer">
+                        <Image
+                            src="/images/linkedin.png"
+                            layout="fixed"
+                            height={35}
+                            width={35}
+                            alt={`image representing logo of Linkedin`}
+                        />
+                    </a>
+                    <a href="https://goo.gl/maps/ynFVhNmEWgvidRZc8" target="_blank" rel="noreferrer">
+                        <Image
+                            src="/images/google.png"
+                            layout="fixed"
+                            height={35}
+                            width={35}
+                            alt={`image representing logo of Google`}
+                        />
+                    </a>
                 </Box>
                 <Text color="blue.700" display={{sm: "none", xl: "block"}} fontSize="sm" textAlign="start" letterSpacing="-1px" pt="2em">
                     @ 2022 Siny. Tout droit reservé.
