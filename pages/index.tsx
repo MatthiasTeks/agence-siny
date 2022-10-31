@@ -23,6 +23,7 @@ const Index: NextPage = () => {
             <Head>
               <title>Siny Agency - La digitalisation à porter de tous.</title>
               <link rel="icon" href="/favicon.ico" />
+              <meta name="description" content="Conception de site internet à Cenon."></meta>
             </Head>
 
             <Navbar burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen} />

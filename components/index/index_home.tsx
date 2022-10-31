@@ -22,10 +22,12 @@ const IndexHome = () => {
                             <Icon as={BsFillArrowRightCircleFill} w={5} h={5} mx="0.5em" color="white.500"/>
                         </Button>
                     </Link>
-                    <Button display="flex" justifyContent="space-between" alignItems="center" colorScheme='gray' ml={{lg: "1em"}} mt={{sm: "0.5em" , lg: "inherit"}} p={{sm: "0.5em", lg: "1.5em"}} visibility="hidden">
-                        <Text fontSize={{sm: "sm", xl: "lg"}} color="white.500" fontWeight="lighter">Nos réalisations</Text>
-                        <Icon as={BsArrowRightCircle} w={5} h={5} mx="0.5em" color="white.500"/>
-                    </Button>
+                    <Link href="/projects">
+                        <Button display="flex" justifyContent="space-between" alignItems="center" colorScheme='gray' ml={{lg: "1em"}} mt={{sm: "0.5em" , lg: "inherit"}} p={{sm: "0.5em", lg: "1.5em"}} >
+                            <Text fontSize={{sm: "sm", xl: "lg"}} color="white.500" fontWeight="lighter">Nos réalisations</Text>
+                            <Icon as={BsArrowRightCircle} w={5} h={5} mx="0.5em" color="white.500"/>
+                        </Button>
+                    </Link>
                 </Box>
             </Box>
             <Box display="flex" flexDirection="column" alignItems="center" w={{sm: "100%", lg: "50%"}} ml={{lg: "-5%"}}>

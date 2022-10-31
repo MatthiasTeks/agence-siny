@@ -193,6 +193,95 @@ a {
   }
 }
 
+/* SWIPER PROJECTS PAGE */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: red;
+  border-radius: 12px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.box-filter {
+  background: black; 
+  opacity: 0.1;
+  position: absolute;
+  transition: ease-in 0.25s;
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%;
+}
+
+.box-filter:hover {
+  background: transparent;
+}
+
+.box-resume {
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.active-slide {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#fdlb-projet {
+  background-image: url("../public/images/fdlb-asset.webp");
+  background-position: center;
+}
+
+#bondi-projet {
+  background-image: url("../public/images/bondi-assets.webp");
+  background-position: center;
+}
+
+#mv-projet {
+  background-image: url("../public/images/mv-asset.webp");
+  background-position: center;
+}
+
+#wary-projet {
+  background-image: url("../public/images/wary-asset.webp");
+  background-position: center;
+}
+
+#react-projet {
+  background-image: url("../public/images/react-asset.webp");
+  background-position: center;
+}
+
+#fatline-projet {
+  background-image: url("../public/images/fatline-asset.webp");
+  background-position: center;
+}
+
 
 
 /* KEYFRAMES */

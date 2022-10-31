@@ -6,9 +6,6 @@ import Burger from "../components/burger/burger";
 import IndexMarquee from "../components/index/index_marquee";
 import IndexMarqueeService from "../components/index/index_marquee_service";
 import Footer from "../components/footer/footer";
-import AgencyStrength from "../components/agency/agency_strength";
-import AgencyHome from "../components/agency/agency_home";
-import AgencyProcess from "../components/agency/agence_process";
 
 const Agency: NextPage = () => {
 
@@ -19,16 +16,12 @@ const Agency: NextPage = () => {
             <Head>
                 <title>Siny Agency - Agency</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="L'Agence Siny à Cenon proche Bordeaux, conception de site internet."></meta>
             </Head>
 
             <Navbar burgerOpen={burgerOpen} setBurgerOpen={setBurgerOpen} />
             <Burger burgerOpen={burgerOpen} />
             <main>
-                <AgencyHome />
-                <IndexMarquee />
-                <AgencyStrength />
-                <IndexMarqueeService />
-                <AgencyProcess />
             </main>
             <Footer />
         </div>
