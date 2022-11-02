@@ -14,8 +14,8 @@ const Pilotage = (props: PilotageType) => {
                     width={60}
                     alt={`image representing ${props.title}`}
                 />
-                <Heading color="blackAlpha.800" as="h4" size={{sm: "sm", lg: "md"}} pt="0.5em">{props.title}</Heading>
-                <Text color="blackAlpha.800" fontSize={{sm: "sm", lg: "lm"}} textAlign={{ sm: "center" }} letterSpacing="-1px" width="70%" pt="0.5em">
+                <Heading color="blackAlpha.800" as="h4" size={{sm: "sm", lg: "md", '2xl': "lg"}} pt="0.5em">{props.title}</Heading>
+                <Text color="blackAlpha.800" fontSize={{sm: "sm", lg: "md", '2xl': "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px" width="70%" pt="0.5em">
                     {props.resume}
                 </Text>
             </Box>

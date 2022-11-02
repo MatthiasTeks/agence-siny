@@ -73,12 +73,12 @@ const ContactForm = () => {
                     </FormControl>
                 </Box>
                 <Checkbox pt="2em" alignItems="start" isRequired={true}>
-                    <Text fontSize={{sm: "xs" , lg: "sm"}} w={{sm: "100%" , lg: "80%"}} color="gray.500" transform="translateY(-0.5em)">
+                    <Text fontSize={{sm: "xs" , lg: "sm", '2xl': "md"}} w={{sm: "100%" , lg: "80%"}} color="gray.500" transform="translateY(-0.5em)">
                         J&apos;accepte la politique de confidentialité de Siny Agency et acceptez de recevoir des messages promotionnels sur ses produits et services. Vous pouvez vous désinscrire à tout moment en cliquant sur le lien figurant au bas de nos e-mails.
                     </Text>
                 </Checkbox>
                 <Button display="flex" justifyContent="space-between" alignItems="center" colorScheme='blue' p={{sm: "0.5em", lg: "1em"}} mt="2em" type="submit">
-                    <Text fontSize={{sm: "sm", xl: "md"}} fontWeight="lighter">Envoyer le message</Text>
+                    <Text fontSize={{sm: "sm", xl: "md", '2xl': "lg"}} fontWeight="lighter">Envoyer le message</Text>
                     <Icon as={BsFillArrowRightCircleFill} w={4} h={4} mx="0.5em" color="white.500"/>
                 </Button>
             </form>

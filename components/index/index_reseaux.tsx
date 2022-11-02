@@ -9,13 +9,13 @@ const IndexReseaux = () => {
                     Nous vous accompagnons sur les réseaux sociaux.
                 </Heading>
                 <Text color="blue.700" fontSize={{sm: "lg", xl: "xl", '2xl': "2xl"}} textAlign={{sm: "center", xl: "left"}} letterSpacing="-1px" pt="1em" width={{xl: "90%", '2xl': "60%"}}>
-                    De puissants outils pour développer et fidéliser votre clientèle.
+                    De puissants outils pour développer et fidéliser votre clientèle, Siny s&apos;engage dans le management de vos réseaux sociaux.
                 </Text>
             </Box>
             <Box display="flex" flexDirection="column" justifyContent="end" alignItems="center">
-                <Reseaux image="/images/instagram.png" title="Instagram" delay={0.25} />
+                <Reseaux image="/images/instagram.webp" title="Instagram" delay={0.25} />
                 <Reseaux image="/images/facebook.webp" title="Facebook" delay={0.50} />
-                <Reseaux image="/images/linkedin.png" title="Linkedin" delay={0.75} />
+                <Reseaux image="/images/linkedin.webp" title="Linkedin" delay={0.75} />
                 <Reseaux image="/images/twitter.png" title="Twitter" delay={1} />
                 <Reseaux image="/images/discord.webp" title="Discord" delay={1.25} />
             </Box>

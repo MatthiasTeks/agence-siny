@@ -38,3 +38,10 @@ export interface AccordionType {
 export interface DeviceContact {
     idDevice: string;
 }
+
+export interface CardType {
+    title: string;
+    name: string;
+    resume: string;
+    price: string;
+}

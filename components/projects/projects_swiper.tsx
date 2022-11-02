@@ -19,7 +19,7 @@ const ProjectsSwiper = () => {
     const isMobile = useMediaQuery({ query: `(max-width: 960px)` });
 
     return (
-        <Box h="500px" w="80%" mx="10vw" my="4em">
+        <Box h={{sm: "500px", '2xl': "650px"}} w="80%" mx="10vw" my="4em">
             <Swiper slidesPerView={isMobile ? 1 : 3} spaceBetween={30} className="mySwiper" pagination={{ clickable: true }} modules={[Pagination]}>
                 <SwiperSlide id="fdlb-projet" onMouseOver={() => setSlideFirst(true)} onMouseLeave={() => setSlideFirst(false)}>
                     <Box display="flex" flexDirection="column" justifyContent="end" alignItems="center" w="100%" h="100%" py="2em" className={`box-resume ${slideFirst ? "active-slide" : ""}`}>

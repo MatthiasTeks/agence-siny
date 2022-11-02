@@ -15,11 +15,11 @@ const Developper = (props: DevelopperType) => {
                 alt={`image representing ${props.title}`}
             />
             <Box display="flex" flexDirection="column" justifyContent="center" alignItems="start">
-                <Heading color="blue.700" as="h4" size={{sm: "sm", lg: "md"}}>{props.name}</Heading>
-                <Text color="red.500" fontSize={{sm: "sm", lg: "lm"}} textAlign={{ sm: "center" }} letterSpacing="-1px">
+                <Heading color="blue.700" as="h4" size={{sm: "sm", lg: "md", '2xl': "lg"}}>{props.name}</Heading>
+                <Text color="red.500" fontSize={{sm: "sm", lg: "md", '2xl': "lg"}} textAlign={{ sm: "center" }} letterSpacing="-1px">
                     {props.title}
                 </Text>
-                <Text color="gray.500" fontSize={{sm: "sm", lg: "lm"}} textAlign={{ sm: "left" }} letterSpacing="-1px">
+                <Text color="gray.500" fontSize={{sm: "sm", lg: "md", '2xl': "lg"}} textAlign={{ sm: "left" }} letterSpacing="-1px">
                     {props.resume}
                 </Text>
             </Box>

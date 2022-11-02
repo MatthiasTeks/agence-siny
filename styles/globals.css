@@ -153,6 +153,7 @@ a {
 @media screen and (min-width: 1536px){
   #siny-reseaux h2 {
     text-align: left;
+    width: 60%;
   }
 }
 
