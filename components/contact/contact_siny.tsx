@@ -10,7 +10,7 @@ const ContactSiny = (props: DeviceContact) => {
             <Box display={{sm: "none" , lg: "block"}} w={{sm: "30vw", lg: "10vw"}} cursor="pointer">
                 <Link href="/">
                     <Image
-                        src="/images/logo.webp"
+                        src="/images/logo_siny.webp"
                         layout="responsive"
                         height={56}
                         width={175}

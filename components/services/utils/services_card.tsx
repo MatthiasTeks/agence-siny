@@ -4,7 +4,7 @@ import { CardType } from "../../../global/types";
 
 const ServicesCard = (props: CardType) => {
     return (
-        <Box id="services-card" display="flex" flexDirection={{ sm: "column" }} justifyContent="center" alignItems="center" bg="white.500" borderRadius="32px" py="2em" mx="1em" my="2em" width="350px" height="400px">
+        <Box id="services-card" display="flex" flexDirection={{ sm: "column" }} justifyContent="center" alignItems="center" bg="white.500" borderRadius="32px" py="2em" mx="1em" my="2em" width={{sm: "250px", lg: "350px"}} height="400px">
             <Heading color="blue.700" textAlign="center" as="h2" size={{sm: "md", xl: "lg"}}  letterSpacing="-1px" px={{sm: "1em", xl: "0"}}>
                     {props.title}        
             </Heading>

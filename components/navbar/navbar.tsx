@@ -12,7 +12,7 @@ const Burger = ({burgerOpen, setBurgerOpen}: { burgerOpen: boolean, setBurgerOpe
                 <Link href="/">
                     <Box display="block" w={{sm: "30vw", lg: "10vw"}} cursor="pointer">
                         <Image
-                            src="/images/logo.webp"
+                            src="/images/logo_siny.webp"
                             layout="responsive"
                             height={56}
                             width={175}

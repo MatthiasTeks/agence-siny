@@ -5,7 +5,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const IndexMerch = () => {
     return (
         <Box id="siny-merch" display="flex" flexDirection={{ sm: "column" }} justifyContent="center" alignItems="center" mx="10vw" bg="#D8EEFE" borderRadius="32px" mt="1em" py="5em">
-            <Heading color="blue.700" textAlign="center" as="h3" size={{sm: "sm", md: "md", xl: "lg", '2xl': "xl"}}  letterSpacing="-1px" width="60%">
+            <Heading color="blue.700" textAlign="center" as="h3" size={{sm: "md", xl: "lg", '2xl': "xl"}}  letterSpacing="-1px" width="60%">
                 Prenez rendez-vous maintenant et discutons de votre projet avec notre équipe.
             </Heading>
             <Link href="/contact">
