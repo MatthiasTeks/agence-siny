@@ -147,16 +147,6 @@ a {
   margin-left: 1em !important;
 }
 
-/* SINY PILOTAGE */
-
-@media screen and (min-width: 1536px){
-  #siny-pilotage h4 {
-    text-align: left;
-    width: 60%;
-  }
-}
-
-
 /* SINY RESEAUX */
 
 @media screen and (min-width: 1536px){
