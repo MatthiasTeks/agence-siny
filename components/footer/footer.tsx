@@ -11,7 +11,7 @@ const Footer = () => {
                 <Box id="siny-icons" display={{sm: "none", xl: "flex"}} flexDirection={{ sm: "row" }} justifyContent={{sm: "center", xl: "start"}}  alignItems={{sm: "center", xl: "start"}}  pt="2em" width="100%">
                     <a href="https://www.linkedin.com/in/matthias-vimbert/" target="_blank" rel="noreferrer">
                         <Image
-                            src="/images/linkedin.png"
+                            src="/images/linkedin.webp"
                             layout="fixed"
                             height={35}
                             width={35}
@@ -20,7 +20,7 @@ const Footer = () => {
                     </a>
                     <a href="https://goo.gl/maps/ynFVhNmEWgvidRZc8" target="_blank" rel="noreferrer">
                         <Image
-                            src="/images/google.png"
+                            src="/images/google.webp"
                             layout="fixed"
                             height={35}
                             width={35}

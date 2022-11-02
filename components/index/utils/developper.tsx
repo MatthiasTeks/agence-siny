@@ -6,7 +6,7 @@ import { DevelopperType } from "../../../global/types";
 
 const Developper = (props: DevelopperType) => {
     return (
-        <Box className="siny-developper" display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" width={{sm: "250px", lg: "300px"}} height="100px" bg="#FFFFFE" position="relative" borderRadius="8px" mx="1em" mt={{sm: "2em", xl: "0em"}}>
+        <Box className="siny-developper" display="flex" flexDirection="row" justifyContent="space-evenly" alignItems="center" width={{sm: "250px", lg: "300px", '2xl': "400px"}} height={{sm: "100px", '2xl': "150px"}} bg="#FFFFFE" position="relative" borderRadius="8px" mx="1em" mt={{sm: "2em", xl: "0em"}}>
             <Image
                 src={props.image}
                 layout="fixed"

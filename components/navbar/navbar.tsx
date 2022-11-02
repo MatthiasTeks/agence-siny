@@ -26,10 +26,10 @@ const Burger = ({burgerOpen, setBurgerOpen}: { burgerOpen: boolean, setBurgerOpe
             </motion.div>
             <Box display={{sm: "none", lg: "flex"}} alignItems="center" flexGrow="1" ml={6}>
                 <Link href="/services">
-                    <Heading fontSize='xl' color="blue.700" as="b" cursor="pointer">nos services</Heading>
+                    <Heading fontSize={{sm: 'xl', '2xl': "2xl"}} color="blue.700" as="b" cursor="pointer">nos services</Heading>
                 </Link>
                 <Link href="/projects">
-                    <Heading fontSize='xl' ml={4} color="blue.700" as="b" cursor="pointer">nos réalisations</Heading>
+                    <Heading fontSize={{sm: 'xl', '2xl': "2xl"}} ml={4} color="blue.700" as="b" cursor="pointer">nos réalisations</Heading>
                 </Link>
             </Box>
             <Button display={{sm: "none", lg: "flex"}} colorScheme='blue' p="1.5em">
