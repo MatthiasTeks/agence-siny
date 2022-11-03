@@ -30,8 +30,8 @@ a {
   position: fixed;
   top: 0;
   right: 0;
-  transition: height 1s ease-in-out;
-  width: 100%;
+  transition: height 0.5s ease-in;
+  width: 100vw;
   z-index: 10;
 }
 

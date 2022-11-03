@@ -11,7 +11,7 @@ const Burger = ({burgerOpen}: { burgerOpen: boolean }) => {
                 <Box display="flex" flexDirection="column" justifyContent="space-evenly" alignItems="start" height="100vh" px="10vw">
                     <Box display="flex" flexDirection="column" justifyContent="center" alignItems="start" w="100%">
                         <Box className="burger-box" w="100%">
-                            <Link href="/">
+                            <Link href="/services">
                                 <Text fontSize='xl' color="white.500" pt="1em">Services</Text>
                             </Link>
                             <hr className="burger-hr"/>
