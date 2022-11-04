@@ -44,4 +44,5 @@ export interface CardType {
     name: string;
     resume: string;
     price: string;
+    isMonth: boolean;
 }

@@ -18,7 +18,7 @@ const ContactDiscuss = () => {
                     Discutons de votre projet avec notre équipe technique.
                 </Heading>
                 <Text fontSize={{sm: "sm", xl: "lg", '2xl': "xl"}} textAlign={{sm: "center" , lg: "left"}} fontWeight="lighter" pt="0.5em">
-                    Posez des questions, apprenez-en davantage sur notre solution et lancez votre projet digital.
+                    Posez des questions, apprenez-en davantage sur notre solution et lancer votre projet digital.
                 </Text>
             </Box>
             <Box id="siny-developper" display={{sm: "none", lg: "block"}} flexDirection="row" justifyContent="center" alignItems="center" alignSelf="start">

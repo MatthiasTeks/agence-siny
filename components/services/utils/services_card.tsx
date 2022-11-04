@@ -11,8 +11,8 @@ const ServicesCard = (props: CardType) => {
             <Text color="gray.500" fontSize={{sm: "sm", xl: "md"}} textAlign="center" letterSpacing="-1px">
                 {props.name}
             </Text>
-            <Heading color="blue.700" textAlign="center" as="h2" size={{sm: "md", xl: "lg"}}  letterSpacing="-1px" pt="0.5em">
-                    {props.price} <span style={{fontSize: "12px"}}>H.T.</span>     
+            <Heading display="flex" justifyContent="center" alignItems="center" color="blue.700" textAlign="center" as="h2" size={{sm: "md", xl: "lg"}}  letterSpacing="-1px" pt="0.5em">
+                    {props.price} <span style={{fontSize: "12px", display: props.isMonth ? "none" : "inherit", paddingLeft: "0.5em"}}>H.T.</span><span style={{fontSize: "12px", display: props.isMonth ? "inherit" : "none", paddingLeft: "0.5em"}}>/mois</span>      
             </Heading>
             <Text color="gray.500" fontSize={{sm: "sm", xl: "md"}} textAlign="center" letterSpacing="-1px" pt="1em" width="70%">
                 {props.resume}

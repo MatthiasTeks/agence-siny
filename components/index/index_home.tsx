@@ -9,11 +9,11 @@ const IndexHome = () => {
         <Box id="siny-home" display="flex" flexDirection={{ sm: "column", lg: "row"}} justifyContent="center" alignItems="center" mx="10vw">
             <Box display="flex" flexDirection="column" alignSelf={{ lg: "start" }} w={{sm: "100%", lg: "50%"}} pt="10%">
                 <Heading className="siny-title" color="blue.700" textAlign={{sm: "center", lg: "start" }} as="h1" size={{sm: "xl", xl: "2xl", '2xl': "3xl"}}  letterSpacing="-2px" width={{sm: "auto", '2xl': "70%"}}>
-                    La conception web pour les entreprises de demain.
+                    La conception web pour les entreprises de demain
                 </Heading>
                 <Text color="gray.500" fontSize={{sm: "lg", xl: "lg", '2xl': "2xl"}} textAlign={{ sm: "center", lg: "start" }} letterSpacing="-1px" pt="0.5em">
-                    L&apos;équipe Siny vous accompagne dans votre projet web et dans sa réussite.
-                    De votre stratégie digitale à la conception de votre site internet, une personnalisation de notre service en fonction de votre projet.
+                    L&apos;agence Siny vous accompagne dans la réussite de votre projet web.
+                    Du pilotage de votre stratégie digitale à la conception de votre site internet, notre équipe est à vos côtés pour répondre à vos besoin.
                 </Text>
                 <Box display="flex" flexDirection={{sm: "column", lg: "row"}} alignItems={{sm: "center", lg: "start"}} pt="1em">
                     <Link href="/contact">

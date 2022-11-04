@@ -6,10 +6,10 @@ const IndexReseaux = () => {
         <Box id="siny-reseaux" display="flex" flexDirection={{ sm: "column", xl: "row" }} justifyContent="center" alignItems="center" mx="10vw" px="10vw" bg="#90b4ce25" borderRadius="32px" mt="1em" py="5em">
             <Box display="flex" flexDirection="column" justifyContent={{sm: "center", xl: "start"}} alignItems={{sm: "center", xl: "start"}}>
                 <Heading color="blue.700" textAlign={{sm: "center", lg: "left"}} as="h2" size={{sm: "xl", xl: "xl", '2xl': "2xl"}}  letterSpacing="-1px" width={{sm: "100%", xl: "90%", '2xl': "60%"}}>
-                    Nous vous accompagnons sur les réseaux sociaux.
+                    Nous vous accompagnons sur les réseaux sociaux
                 </Heading>
                 <Text color="blue.700" fontSize={{sm: "lg", xl: "xl", '2xl': "2xl"}} textAlign={{sm: "center", xl: "left"}} letterSpacing="-1px" pt="1em" width={{xl: "90%", '2xl': "60%"}}>
-                    De puissants outils pour développer et fidéliser votre clientèle, Siny s&apos;engage dans le management de vos réseaux sociaux.
+                    De puissants outils pour développer et fidéliser votre clientèle, Siny vous accompagne dans le management de vos réseaux sociaux.
                 </Text>
             </Box>
             <Box display="flex" flexDirection="column" justifyContent="end" alignItems="center">

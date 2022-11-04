@@ -10,7 +10,7 @@ const IndexDevelopper = () => {
                 Développer votre audience sur internet.
             </Heading>
             <Text color="white.500" fontSize={{sm: "md", xl: "xl", '2xl': "2xl"}} textAlign="center" letterSpacing="-1px" pt="1em" width="70%">
-                Siny vous apporte toutes les clés pour développer votre audience sur internet, d’une optimisation du référencement sur votre site web jusqu’à l’établissement d’une stratégie digitale, vous mettrez toutes les chances de votre côté.
+                Siny vous apporte toutes les clés pour développer votre audience sur internet. Optimisation du référencement site internet, création stratégie digitale, mettez toutes les chances de votre côté.
             </Text>
             <Link href="/contact">
                 <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" width="100%" pt="1em">

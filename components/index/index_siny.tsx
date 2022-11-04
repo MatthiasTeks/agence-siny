@@ -9,7 +9,7 @@ const IndexSiny = () => {
                 Siny au coeur de votre projet
             </Heading>
             <Text color="gray.500" fontSize={{sm: "md", xl: "xl", '2xl': "2xl"}} textAlign="center" letterSpacing="-1px" pt="0.5em" px={{sm: "1em", xl: "0"}}>
-                De la conception de votre site internet jusqu’à la réflexion de votre stratégie digitale, l’équipe Siny est à vos côtés.
+                Nous accordons le même soin et la même importance à chacun de nos projets, quelle que soit leur envergure.
             </Text>
             <Box display="flex" flexDirection={{sm: "column", lg: "row"}} justifyContent="center" alignItems="center" bg="white.500" mx={{sm: "2em", md: "5em"}} my="3em" py={{sm: "3em", '2xl': "5em"}} px="1em" borderRadius="24px">
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ ease: "easeInOut", duration: 0.5}} viewport={{ once: true }}>
