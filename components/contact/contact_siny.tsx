@@ -46,7 +46,7 @@ const ContactSiny = (props: DeviceContact) => {
                     <Text fontSize={{sm: "sm", xl: "md", '2xl': "lg"}} fontWeight="lighter" color="gray.500">par téléphone : 07 69 11 99 42 </Text>
                 </Box>
                 <Box display="flex" flexDirection="row" justifyContent="center" alignItems="center" pt={{sm: "0.5em" , lg: "0"}}>
-                    <Text fontSize={{sm: "sm", xl: "md", '2xl': "lg"}} fontWeight="lighter" color="gray.500">par mail : matthias@sinyagence.com </Text>
+                    <Text fontSize={{sm: "sm", xl: "md", '2xl': "lg"}} fontWeight="lighter" color="gray.500">par mail : matthias@sinyagency.com </Text>
                 </Box>
             </Box>
         </Box>
